@@ -1,0 +1,21 @@
+{
+  "name": "sakila-node",
+  "version": "1.0.0",
+  "description": "for node learn include crud",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "mysql": "^2.11.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "less-middleware": "^2.2.0",
+    "superfetch": "^1.1.1",
+    "swig": "^1.4.2"
+  }
+}

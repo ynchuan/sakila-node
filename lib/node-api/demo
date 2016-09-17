@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>警务千度</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="renderer" content="webkit">
+		<link rel="stylesheet" type="text/css" href="../css/lib/normalize.css">
+		<link rel="stylesheet" type="text/css" href="../css/cp-frame.css">
+		<link rel="stylesheet" type="text/css" href="../css/cp-detail.css">
+		<link rel="stylesheet" type="text/css" href="../css/cp-qd-detail-base.css">
+		<script src="../js/lib/jquery-1.7.2.min.js"></script>
+		<script src="../js/lib/click-slide.js"></script>
+		<script src="../js/cp-detail.js"></script> 
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="../js/lib/json2.js"></script>
+		<script type="text/javascript" src="../js/lib/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="main-full" style="background-image: url(../images/cp-frame/cover.png)">
+			<header class="header">
+                <div class="wrap">
+                    <div class="d-h-t">
+                        <ul class="ul-h-ts">
+                            <li class="li-h-t">
+                                <a href="#" class="a-t-link">个人中心</a>
+                            </li>
+                            <li class="li-h-t">
+                                <a href="#" class="a-t-link">应用中心</a>
+                            </li>
+                            <li class="li-h-t">
+                                <a href="#" class="a-t-link">资源服务</a>
+                            </li>
+                            <li class="li-h-t">
+                                <a href="#" class="a-t-link">在线服务</a>
+                            </li>
+                            <li class="li-h-t">
+                                <a href="#" class="a-t-link">监控中心</a>
+                            </li>
+                            <li class="li-h-t">
+                                <a href="#" class="a-t-link">安全中心</a>
+                            </li>
+                        </ul>
+                        <a class="a-old a-hd">
+                            旧版
+                        </a>
+                        <a class="a-new a-hd">
+                            新版
+                        </a>
+                        |
+                        <a class="a-exit a-hd">
+                            退出
+                        </a>
+                    </div>
+                </div>
+            </header>
+			<nav class="nav">
+                <div class="wrap">
+                    <div class="div-search">
+                        <i class="icon-logo"></i>
+                        <span class="sp-wrap-outter">
+                            <span class="span-wrap-inner">
+                                <input type="text"class="input-search"/>
+                                <i class="icon-keyboard"></i>
+                                <span class="span-search-btn"></span>
+                            </span>
+                            <span class="span-senior-btn"></span>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+			<nav class="nav-tabs">
+				<div class="wrap">
+					<ul class="ul-navs">
+						<li class="li-nav active"><a class="a-nav-lk">基本信息</a></li>
+						<li class="li-nav"><a class="a-nav-lk">人际关系</a></li>
+						<li class="li-nav"><a class="a-nav-lk">户籍变迁</a></li>
+						<li class="li-nav"><a class="a-nav-lk">案事件</a></li>
+						<li class="li-nav"><a class="a-nav-lk">物品</a></li>
+						<li class="li-nav"><a class="a-nav-lk">重点关注信息</a></li>
+						<li class="li-nav"><a class="a-nav-lk">社会信息</a></li>
+						<li class="li-nav"><a class="a-nav-lk">轨迹信息</a></li>
+						<li class="li-nav"><a class="a-nav-lk">华南六省信息</a></li>
+						<li class="li-nav"><a class="a-nav-lk">统计信息</a></li>
+						<li class="li-nav"><a class="a-nav-lk">历史统计</a></li>
+						<li class="li-nav"><a class="a-nav-lk">纳税人信息</a></li>
+						<li class="li-nav"><a class="a-nav-lk">备注</a></li>
+						<li class="li-nav"><a class="a-nav-lk">警务记事本</a></li>
+					</ul>
+				</div>
+			</nav>
+			<section class="section">
+				<div class="wrap">
+					<aside class="asd-bar">
+
+						<div class="d-asides">
+							<h2 class="h2-aside">
+							人脸相似推荐
+							</h2>
+							<ul class="ul-similar similar-photo-people">
+								<li class="li-similar">
+									<img src="../images/cp-detail/similar-photo-1.png" alt="" class="img-similar-photo">
+									<span class="sp-desc">
+										王某某
+									</span>
+								</li>
+								<li class="li-similar">
+									<img src="../images/cp-detail/similar-photo-1.png" alt="" class="img-similar-photo">
+									<span class="sp-desc">
+										张某某
+									</span>
+								</li>
+								<li class="li-similar">
+									<img src="../images/cp-detail/similar-photo-1.png" alt="" class="img-similar-photo">
+									<span class="sp-desc">
+										任某某
+									</span>
+								</li>
+							</ul>
+							<a href="#" class="a-get-more">获取更多相似照片</a>
+						</div>
+						<div class="d-asides">
+							<h2 class="h2-aside">
+							谁也在关注TA
+							</h2>
+							<ul class="ul-attetion">
+								<li class="li-attetion">
+									<img src="../images/cp-detail/police-photo-1.png" alt="" class="img-similar-photo"/>
+									<p class="p-op">
+										王**
+										<a href="#" class="a-at">@TA</a>
+										<a href="#" class="a-at">关注</a>
+										<a href="#" class="a-msg">消息</a>
+									</p>
+									<p class="p-ds">
+										山东省济南市省厅稽查处第二分队长
+									</p>
+								</li>
+								<li class="li-attetion">
+									<img src="../images/cp-detail/police-photo-1.png" alt="" class="img-similar-photo"/>
+									<p class="p-op">
+										王**
+										<a href="#" class="a-at">@TA</a>
+										<a href="#" class="a-at">关注</a>
+										<a href="#" class="a-msg">消息</a>
+									</p>
+									<p class="p-ds">
+										山东省济南市省厅稽查处第二分队长
+									</p>
+								</li>
+								<li class="li-attetion">
+									<img src="../images/cp-detail/police-photo-1.png" alt="" class="img-similar-photo"/>
+									<p class="p-op">
+										王**
+										<a href="#" class="a-at">@TA</a>
+										<a href="#" class="a-at">关注</a>
+										<a href="#" class="a-msg">消息</a>
+									</p>
+									<p class="p-ds">
+										山东省济南市省厅稽查处第二分队长
+									</p>
+								</li>
+								<li class="li-attetion">
+									<img src="../images/cp-detail/police-photo-1.png" alt="" class="img-similar-photo"/>
+									<p class="p-op">
+										王**
+										<a href="#" class="a-at">@TA</a>
+										<a href="#" class="a-at">关注</a>
+										<a href="#" class="a-msg">消息</a>
+									</p>
+									<p class="p-ds">
+										山东省济南市省厅稽查处第二分队长
+									</p>
+								</li>
+							</ul>
+							<a href="#" class="a-get-more">更多内容</a>
+						</div>
+						<div class="d-asides">
+							<a href="#" class="a-search-his">我的搜索记录</a>
+							<a href="#" class="a-visit-his">我的访问记录</a>
+						</div>
+					</aside>
+					<article class="art-main">
+						<div class="d-c-item">
+							<div class="div-tt">
+								<span class="span-icons-l">
+									<i class="icon icon-dna icon-dnalight"></i>
+									<i class="icon icon-fingerprint icon-fplight"></i>
+									<i class="icon icon-voice icon-volight"></i>
+									<i class="icon icon-record "></i>
+									<!-- 如果不存在该类别信息，icon-*light 去除，让图片“熄灭” -->
+									<i class="icon icon-note icon-ntlight"></i>
+									<i class="icon icon-arrow-l"></i>
+								</span>
+								<span class="span-icons-r">
+									<i class="icon icon-arrow-r"></i>
+									<a class="a-r-link">导出档案</a>
+								</span>
+								<div class="div-tags">
+									<strong class="s-tag">涉毒</strong>
+									<strong class="s-tag">高危</strong>
+									<strong class="s-tag">上访</strong>
+									<strong class="s-tag">前科</strong>
+									<strong class="s-tag">在逃</strong>
+								</div>
+							</div>
+							<div class="div-bd">
+								<figure class="fg-item">
+									<div class="div-img-contain" data-srcoll-horizontal> 
+	                                    <i class="icon-page icon-toggle-left"></i>
+	                                    <ul class="ul-rybase-photos">
+	                                        <li class="li-rybase-photo">
+	                                            <img src="../images/cp-detail/demo1.png" alt="人员头像" class="img-photo">
+	                                        </li>
+	                                        <li class="li-rybase-photo">
+	                                            <img src="../images/cp-detail/demo2.png" alt="人员头像" class="img-photo">
+	                                        </li>
+	                                        <li class="li-rybase-photo">
+	                                            <img src="../images/cp-detail/demo3.png" alt="人员头像" class="img-photo">
+	                                        </li>
+	                                    </ul>
+	                                    <i class="icon-page icon-toggle-right"></i> 
+	                                </div> 
+	                                <div class="d-upload">
+	                                	<span class="sp-upload">上传照片</span>
+	                                </div>
+								</figure>
+								<div class="div-main">
+									<ul class="ul-data-clsfy">
+										<li class="li-data i-hotel i-not0-hotel">
+											<h5 class="h5-data">旅馆</h5>
+											<p class="p-data">11</p>
+										</li>
+										<li class="li-data i-plane i-not0-plane">
+											<h5 class="h5-data">飞机</h5>
+											<p class="p-data">3</p>
+										</li>
+										<li class="li-data i-net i-not0-net">
+											<h5 class="h5-data">上网</h5>
+											<p class="p-data">14</p>
+										</li>
+										<!-- 注意：如果数据为空,即0，可以将样式名称i-not0-*去掉,向上一样 -->
+										<li class="li-data i-train ">
+											<h5 class="h5-data">火车</h5>
+											<p class="p-data">0</p>
+										</li>
+									</ul>
+									<div class="div-table-detail">
+										<table class="tb-detail">
+											<tr>
+												<td class="td-dtl">
+													<span class="span-tt">姓名：</span>
+													<span class="span-ct">张万华</span>
+												</td>
+												<td class="td-dtl">
+													<span class="span-tt">国籍：</span>
+													<span class="span-ct">中国</span>
+												</td>
+												<td class="td-dtl">
+													<span class="span-tt">性别：</span>
+													<span class="span-ct">男</span>
+												</td>
+											</tr>
+											<tr>
+												<td class="td-dtl">
+													<span class="span-tt">身份证：</span>
+													<span class="span-ct">1111111111111111111111</span>
+												</td>
+												<td class="td-dtl">
+													<span class="span-tt">民族：</span>
+													<span class="span-ct">汉族</span>
+												</td>
+												<td class="td-dtl">
+													<span class="span-tt">生日：</span>
+													<span class="span-ct">
+														1975-08-09
+													</span>
+												</td>
+											</tr>
+											<tr>
+												<td class="td-dtl" colspan="3">
+													<span class="span-tt">住所详细地址：</span>
+													<span class="span-ct">重庆市渝北区金龙路272号重庆国安局<i class="ic-anonymous"></i></span>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-c-item">
+							<h2 class="h2-tl">
+							<span class="sp-tl"><i class="icon-star"></i>补充信息</span>
+							</h2>
+							<div class="d-ctt">
+								<div class="d-labels">
+									<span class="sp-label">曾用名：张国栋</span>
+									<span class="sp-label">婚姻：未婚</span>
+									<span class="sp-label">工作单位：龙阳镇庙塘村</span>
+									<span class="sp-label">籍贯：东营</span>
+									<span class="sp-label">文焕程度：小学教育</span>
+								</div>
+							</div>
+						</div>
+						<div class="d-c-item">
+							<h2 class="h2-tl">
+							<a href="#" class="a-r-link">公安请求服务</a>
+							<span class="sp-tl">
+								<i class="icon-star"></i>流动人口
+							</span>
+							数据来源：警务云数据中心
+							</h2>
+							<div class="d-ctt"> 
+								<ul class="ul-detail-list">
+									<li class="li-dt-item">
+										<span class="sp-l-t">姓名：</span><span class="sp-r-b">张*</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">性别：</span><span class="sp-r-b">男</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">身份证号：</span><span class="sp-r-b">379799898989989</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">民族：</span><span class="sp-r-b">汉</span>
+									</li> 
+									<li class="li-dt-item">
+										<span class="sp-l-t">住址：</span><span class="sp-r-b">山大路**号济南科技市场**层**</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">电话：</span><span class="sp-r-b">13233232323</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">工作单位：</span><span class="sp-r-b"> </span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">居住事由：</span><span class="sp-r-b">其他</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">登记日期：</span><span class="sp-r-b">2008-03-19</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">到期日期：</span><span class="sp-r-b">2038-03-19</span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">房主：</span><span class="sp-r-b"></span>
+									</li>
+									<li class="li-dt-item">
+										<span class="sp-l-t">住所类别：</span><span class="sp-r-b">其他</span>
+									</li> 
+								</ul>
+							</div>
+						</div>
+						<div class="d-c-item">
+							<h2 class="h2-tl">
+							<a href="#" class="a-r-link">公安请求服务</a>
+							<span class="sp-tl">
+								<i class="icon-star"></i>驾驶证
+							</span>
+							数据来源：警务云数据中心
+							</h2>
+							<div class="d-ctt">
+								<table class="yc_list">
+									<tr class="yc-list-li yc-li-head">
+										<td class="yc-list-cell cell-1">有效期</td>
+										<td class="yc-list-cell cell-2">准驾车型</td>
+										<td class="yc-list-cell cell-3">联系电话</td>
+										<td class="yc-list-cell cell-4">驾驶状态</td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											2013年01月30日至2023年01月29日
+										</td>
+										<td class="yc-list-cell">c1小型车</td>
+										<td class="yc-list-cell">1332323333</td>
+										<td class="yc-list-cell">正常</td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											2013年01月30日至2023年01月29日
+										</td>
+										<td class="yc-list-cell">c1小型车</td>
+										<td class="yc-list-cell">1332323333</td>
+										<td class="yc-list-cell">正常</td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											2013年01月30日至2023年01月29日
+										</td>
+										<td class="yc-list-cell">c1小型车</td>
+										<td class="yc-list-cell">1332323333</td>
+										<td class="yc-list-cell">正常</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="d-c-item">
+							<h2 class="h2-tl">
+							<a href="#" class="a-r-link">公安请求服务</a>
+							<span class="sp-tl">
+								<i class="icon-star"></i>其他证件
+							</span>
+							数据来源：警务云数据中心
+							</h2>
+							<div class="d-ctt">
+								<table class="yc_list">
+									<tr class="yc-list-li yc-li-head">
+										<td class="yc-list-cell cell-1">证件种类</td>
+										<td class="yc-list-cell cell-2">证件号码</td>
+										<td class="yc-list-cell cell-3">申请前往地</td>
+										<td class="yc-list-cell cell-4">领证时间</td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											往来港澳通行证
+										</td>
+										<td class="yc-list-cell">w6545452</td>
+										<td class="yc-list-cell">香港-澳门</td>
+										<td class="yc-list-cell">2012年10月23日</td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											往来港澳通行证
+										</td>
+										<td class="yc-list-cell">w6545452</td>
+										<td class="yc-list-cell">香港-澳门</td>
+										<td class="yc-list-cell">2012年10月23日</td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											往来港澳通行证
+										</td>
+										<td class="yc-list-cell">w6545452</td>
+										<td class="yc-list-cell">香港-澳门</td>
+										<td class="yc-list-cell">2012年10月23日</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="d-c-item">
+							<h2 class="h2-tl">
+							<a href="#" class="a-r-link">查看时间轴</a>
+							<span class="sp-tl">
+								<i class="icon-star"></i>工作履历
+							</span>
+							数据来源：警务云数据中心
+							</h2>
+							<div class="d-ctt">
+								<table class="yc_list">
+									<tr class="yc-list-li yc-li-head">
+										<td class="yc-list-cell cell-1">信息来源</td>
+										<td class="yc-list-cell cell-2">工作单位</td>
+										<td class="yc-list-cell cell-3">时间</td>
+										<td class="yc-list-cell cell-4">就业状态</td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											新常住人口
+										</td>
+										<td class="yc-list-cell">粮转站</td>
+										<td class="yc-list-cell">2016年01月18日 17:51:17</td>
+										<td class="yc-list-cell"></td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											常住人口
+										</td>
+										<td class="yc-list-cell">粮转站</td>
+										<td class="yc-list-cell">2012年01月18日 17:51:17</td>
+										<td class="yc-list-cell"></td>
+									</tr>
+									<tr class="yc-list-li">
+										<td class="yc-list-cell">
+											公民因私出境证件业务
+										</td>
+										<td class="yc-list-cell">德州安德电器经销部</td>
+										<td class="yc-list-cell">2008年01月18日 17:51:17</td>
+										<td class="yc-list-cell">无业</td>
+									</tr>
+									
+								</table>
+							</div>
+						</div>
+						<div class="d-c-item">
+							<div class="d-c-l">
+								<h2 class="h2-tl">
+								<span class="sp-tl"><i class="icon-phone"></i>联系方式</span>
+								</h2>
+								<div class="d-ctt">
+									<input type="text" class="ipt-sbmt"><button class="btn-sbmt">提交</button>
+									<ul class="ul-photos">
+										<li class="li-ph i-up">
+											<a href="#" class="a-p-lk">13988777777</a>
+											<span class="sp-p-d">(2015-03-15交通违法)</span>
+											<i class="i-search"></i>
+											<i class="i-favor "></i>
+											<span class="sp-f-1">+1</span>
+											<div class="d-p-tip">
+												<i class="i-photo"></i>
+												<p class="p-p-d">2006-05-01  济南常住人口信息</p>
+											</div>
+										</li>
+										<li class="li-ph i-down">
+											<a href="#" class="a-p-lk">13988777777 </a>
+											<span class="sp-p-d">(2015-03-15交通违法)</span>
+											<i class="i-search"></i>
+											<i class="i-favor "></i>
+											<span class="sp-f-1">-1</span>
+											<div class="d-p-tip">
+												<i class="i-photo"></i>
+												<p class="p-p-d">2006-05-01  济南常住人口信息</p>
+											</div>
+										</li>
+										<li class="li-ph">
+											<a href="#" class="a-p-lk">13988777777</a>
+											<span class="sp-p-d">(2015-03-15交通违法)</span>
+											<i class="i-search"></i>
+											<i class="i-favor"></i>
+											<div class="d-p-tip">
+												<i class="i-photo"></i>
+												<p class="p-p-d">2006-05-01  济南常住人口信息</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="d-c-r">
+								<h2 class="h2-tl">
+								<span class="sp-tl"><i class="icon-addr"></i>地址信息</span>
+								</h2>
+								<div class="d-ctt">
+									<a href="#" class="a-supp">补充地址信息</a>
+									<ul class="ul-photos">
+										<li class="li-ph">
+											山东济南历下区某某小区X号X单元X0X
+											<span class="sp-p-d">(2015-03-15交通违法)</span>
+											<i class="i-local"></i>
+											<i class="i-search"></i>
+											<i class="i-favor"></i>
+										</li>
+										<li class="li-ph">
+											山东济南历下区某某小区X号X单元X0X
+											<span class="sp-p-d">(2015-03-15交通违法)</span>
+											<i class="i-local"></i>
+											<i class="i-search"></i>
+											<i class="i-favor"></i>
+										</li>
+										<li class="li-ph">
+											山东济南历下区某某小区X号X单元X0X
+											<span class="sp-p-d">(2015-03-15交通违法)</span>
+											<i class="i-local"></i>
+											<i class="i-search"></i>
+											<i class="i-favor"></i>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+			<footer class="footer">
+                <div class="wrap">
+                    <p class="f-p">山东省公安厅 <em class="em-s">浪潮集团技术支持</em><em class="em-s">建议使用ie9浏览器查看</em> <i class="icon-ie"></i><a class="link-ie">下载新版IE</a></p>
+                    <p class="f-p">当前在线人数：<strong class="st-y">182</strong>
+                        今日访问量：<strong class="st-b">2322</strong>
+                        昨日访问量：<strong class="st-b">3223</strong>
+                        本周访问量：<strong class="st-b">3232</strong>
+                        本月访问量：<strong class="st-b">31313</strong>
+                        累计访问量：<strong class="st-b">23232323</strong>
+                    </p>
+                </div>
+            </footer>
+			<section class="sec-popup hide">
+				<div class="d-popup">
+					<h2 class="h2-pp"><i class="icon-close">×</i>添加照片</h2>
+					<div class="d-pp-img">
+						<p class="p-ins">单次只能上传一张照片</p>
+						<img  src="../images/cp-detail/demo1.png" class="img-upload">
+					</div>
+					<div class="d-pp-btns">
+						<form class="fm-ul" onsubmit="return false" enctype="multipart/form-data" method="post" >
+							<span class="sp-pp-select">选择照片</span>
+							<input type="file" class="ipt-upload" accept="image/png,image/gif">
+							<div class="d-pp-loaded">
+								<a class="a-pp-replace">替换照片</a>
+								<button class="sp-pp-upload">上传照片</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<div class="mask hide"></div>
+		</div>
+	</body>
+</html>

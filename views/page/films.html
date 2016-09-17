@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block title %}Films{% endblock %}
+
+{% block body %}
+    <div>
+        {% for film in films %}
+        <ul>
+            <li>title: {{ film.title }}</li>
+            <li>description: {{ film.description }}</li>
+            <li>release_year: {{ film.release_year }}</li>
+        </ul>
+        {% endfor %}
+    </div>
+{% endblock %}
